@@ -15,6 +15,7 @@ namespace Instil.Poker.Console
                 .AddSingleton<IAppHost, AppHost>()
                 .AddScoped<IFileParser, TextFileParser>()
                 .AddScoped<IFileValidator, WindowsFileValidator>()
+                .AddScoped<IHandValidator, DefaultPokerHandValidator>()
                 .AddScoped<IPokerHandDetermination, PokerFace>()
                 .BuildServiceProvider();
 

@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{79085055
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instil.Poker.Core.Tests", "Tests\Instil.Poker.Core.Tests\Instil.Poker.Core.Tests.csproj", "{CD8CD3F4-6791-4C70-9D80-84257B49B84A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instil.Poker.Domain.Tests", "Tests\Instil.Poker.Domain.Tests\Instil.Poker.Domain.Tests.csproj", "{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instil.Poker.Tests.Common", "Tests\Instil.Poker.Tests.Common\Instil.Poker.Tests.Common.csproj", "{2C6AD3A8-2BE1-4559-80E8-28885EE4C360}"
 EndProject
 Global
@@ -75,18 +73,6 @@ Global
 		{CD8CD3F4-6791-4C70-9D80-84257B49B84A}.Release|x64.Build.0 = Release|Any CPU
 		{CD8CD3F4-6791-4C70-9D80-84257B49B84A}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD8CD3F4-6791-4C70-9D80-84257B49B84A}.Release|x86.Build.0 = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|x64.Build.0 = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Debug|x86.Build.0 = Debug|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|x64.ActiveCfg = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|x64.Build.0 = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|x86.ActiveCfg = Release|Any CPU
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D}.Release|x86.Build.0 = Release|Any CPU
 		{2C6AD3A8-2BE1-4559-80E8-28885EE4C360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C6AD3A8-2BE1-4559-80E8-28885EE4C360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C6AD3A8-2BE1-4559-80E8-28885EE4C360}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -105,7 +91,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CD8CD3F4-6791-4C70-9D80-84257B49B84A} = {79085055-D04E-4DFF-AF4F-6E23142AA371}
-		{4D8470DD-CCEC-43B4-8D44-EAFE1234E01D} = {79085055-D04E-4DFF-AF4F-6E23142AA371}
 		{2C6AD3A8-2BE1-4559-80E8-28885EE4C360} = {79085055-D04E-4DFF-AF4F-6E23142AA371}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

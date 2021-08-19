@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Instil.Poker.Core;
 using Instil.Poker.Core.Enums;
+using Instil.Poker.Core.Exceptions;
 using Instil.Poker.Core.Tests.Fakes;
 using Instil.Poker.Domain.Entities;
 using Instil.Poker.Domain.Enums;
@@ -16,7 +17,17 @@ namespace Instil.Poker.Core.Tests
         [SetUp]
         public void SetUp()
         {
-            _determination = new PokerFace();
+            var validator = new FakeHandValidator().WithValidHand();
+            _determination = new PokerFace(validator.Object);
+        }
+
+        [Test]
+        public void DetermineHand_ShouldThrowErrorForInvalidHand()
+        {
+            var validator = new FakeHandValidator().WithValidHand(false);
+            var determination = new PokerFace(validator.Object);
+
+            Assert.Throws<InvalidHandException>(() => determination.DetermineHand(new FakePokerHand().Object));
         }
 
         [Test]
