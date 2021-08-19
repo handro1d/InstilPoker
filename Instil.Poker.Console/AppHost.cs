@@ -1,8 +1,8 @@
-using System;
-using System.Linq;
 using Instil.Poker.Console.Utils;
 using Instil.Poker.Core.Interfaces;
 using Instil.Poker.Domain.Interfaces;
+using System;
+using System.Linq;
 
 namespace Instil.Poker.Console
 {
@@ -45,7 +45,7 @@ namespace Instil.Poker.Console
         private void OutputPokerHand(int handNumber, IPokerHand pokerHand)
         {
             var result = _pokerHandDetermination.DetermineHand(pokerHand);
-            var output = $"Hand {handNumber}: {result.ToString()}";
+            var output = $"Hand {handNumber}: {result}";
 
             ColourConsole.WriteLine(output, ConsoleColor.Green);
         }
