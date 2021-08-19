@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Instil.Poker.Core/1.0.0": {
+        "dependencies": {
+          "Instil.Poker.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Instil.Poker.Core.dll": {}
+        }
+      },
+      "Instil.Poker.Domain/1.0.0": {
+        "runtime": {
+          "Instil.Poker.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Instil.Poker.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Instil.Poker.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

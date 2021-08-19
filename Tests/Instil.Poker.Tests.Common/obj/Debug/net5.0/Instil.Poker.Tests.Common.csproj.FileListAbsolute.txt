@@ -1,0 +1,15 @@
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\Instil.Poker.Tests.Common.deps.json
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\Instil.Poker.Tests.Common.dll
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\ref\Instil.Poker.Tests.Common.dll
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\Instil.Poker.Tests.Common.pdb
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\Instil.Poker.Domain.dll
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\bin\Debug\net5.0\Instil.Poker.Domain.pdb
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.csproj.AssemblyReference.cache
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.AssemblyInfoInputs.cache
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.AssemblyInfo.cs
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.csproj.CoreCompileInputs.cache
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.csproj.CopyComplete
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.dll
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\ref\Instil.Poker.Tests.Common.dll
+C:\Dev\Instil Poker\Tests\Instil.Poker.Tests.Common\obj\Debug\net5.0\Instil.Poker.Tests.Common.pdb

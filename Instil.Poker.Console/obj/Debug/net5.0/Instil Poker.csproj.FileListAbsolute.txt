@@ -1,0 +1,28 @@
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.exe
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.deps.json
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.runtimeconfig.json
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.runtimeconfig.dev.json
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\ref\Instil Poker.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Instil Poker.pdb
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.csproj.AssemblyReference.cache
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.AssemblyInfoInputs.cache
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.AssemblyInfo.cs
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.csproj.CoreCompileInputs.cache
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.dll
+C:\Dev\Instil Poker\obj\Debug\net5.0\ref\Instil Poker.dll
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.pdb
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.genruntimeconfig.cache
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Dev\Instil Poker\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Dev\Instil Poker\obj\Debug\net5.0\Instil Poker.csproj.CopyComplete
