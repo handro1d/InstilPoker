@@ -23,12 +23,12 @@ The full definition of these hands is here: [Wikipedia - List of Poker Hands](ht
 
 * Enter the fully qualified file path to a file containing data to read when prompted.
   
-  ![Enter file path](./Assets/EnterFilePath.png)
+  ![Enter file path](./Assets/EnterFilePath.PNG)
 
 * Hit enter
 * Determined hands will be output to the console
   
-  ![Console output](./Assets/ConsoleOutput.png)
+  ![Console output](./Assets/ConsoleOutput.PNG)
 
 * Press any key to exit the application 
 
