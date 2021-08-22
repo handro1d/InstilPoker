@@ -1,4 +1,6 @@
 # Poker Face
+[![.NET](https://github.com/handro1d/InstilPoker/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/handro1d/InstilPoker/actions/workflows/CI.yml)
+
 Read input from a file and convert the specified hands (there may be many) into the name of the corresponding poker hand. 
 
 The name of the hand will be one of:
