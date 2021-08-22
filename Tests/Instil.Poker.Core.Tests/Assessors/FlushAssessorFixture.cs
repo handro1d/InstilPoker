@@ -20,7 +20,7 @@ namespace Instil.Poker.Core.Tests.Assessors
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForHandOfMultipleSuits()
+        public void Assess_ShouldReturnHighCardForHandOfMultipleSuits()
         {
             var cards = new List<Card>
             {
@@ -35,11 +35,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForSequentialCards()
+        public void Assess_ShouldReturnHighCardForSequentialCards()
         {
             var cards = new List<Card>
             {
@@ -54,11 +54,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForLowAceSequentialCards()
+        public void Assess_ShouldReturnHighCardForLowAceSequentialCards()
         {
             var cards = new List<Card>
             {
@@ -73,11 +73,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForLowHighSequentialCards()
+        public void Assess_ShouldReturnHighCardForLowHighSequentialCards()
         {
             var cards = new List<Card>
             {
@@ -92,7 +92,7 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]

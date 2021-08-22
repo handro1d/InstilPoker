@@ -21,7 +21,7 @@ namespace Instil.Poker.Core.Tests.Assessors
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForHandOfOneSuit()
+        public void Assess_ShouldReturnHighCardForHandOfOneSuit()
         {
             var suitExclusions = new List<CardSuit> { CardSuit.Diamonds, CardSuit.Spades, CardSuit.Clubs };
             var cards = CardUtility.GenerateRandomCards(5, suitsToExclude: suitExclusions);
@@ -29,11 +29,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForHandContainingDuplicateRanks()
+        public void Assess_ShouldReturnHighCardForHandContainingDuplicateRanks()
         {
             var cards = new List<Card>
             {
@@ -48,7 +48,7 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]

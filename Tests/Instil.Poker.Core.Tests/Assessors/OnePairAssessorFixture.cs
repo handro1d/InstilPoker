@@ -21,7 +21,7 @@ namespace Instil.Poker.Core.Tests.Assessors
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForNoDuplicatedRanks()
+        public void Assess_ShouldReturnHighCardForNoDuplicatedRanks()
         {
             var cards = new List<Card>
             {
@@ -36,11 +36,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForMultipleDuplicatedRanks()
+        public void Assess_ShouldReturnHighCardForMultipleDuplicatedRanks()
         {
             var cards = new List<Card>
             {
@@ -55,11 +55,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForMoreThanTwoInADuplicatedRank()
+        public void Assess_ShouldReturnHighCardForMoreThanTwoInADuplicatedRank()
         {
             var cards = new List<Card>
             {
@@ -74,7 +74,7 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]

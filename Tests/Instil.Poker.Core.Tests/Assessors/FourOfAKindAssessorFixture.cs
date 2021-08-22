@@ -20,7 +20,7 @@ namespace Instil.Poker.Core.Tests.Assessors
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForMultipleRanks()
+        public void Assess_ShouldReturnHighCardForMultipleRanks()
         {
             var cards = new List<Card>
             {
@@ -35,11 +35,11 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]
-        public void Assess_ShouldReturnNoneForInvalidRankCount()
+        public void Assess_ShouldReturnHighCardForInvalidRankCount()
         {
             var cards = new List<Card>
             {
@@ -54,7 +54,7 @@ namespace Instil.Poker.Core.Tests.Assessors
 
             var result = _assessor.Assess(hand.Object);
 
-            Assert.AreEqual(PokerHandType.None, result);
+            Assert.AreEqual(PokerHandType.HighCard, result);
         }
 
         [Test]

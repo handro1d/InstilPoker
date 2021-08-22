@@ -19,7 +19,7 @@ namespace Instil.Poker.Console
 
         public void Run(params string[] args)
         {
-            ColourConsole.WriteLine("Welcome to POKER FACE!", ConsoleColor.DarkMagenta);
+            ColourConsole.WriteLine("Welcome to POKER FACE!", ConsoleColor.DarkYellow);
 
             try
             {

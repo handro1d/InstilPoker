@@ -18,7 +18,7 @@ namespace Instil.Poker.Core.Assessors
         {
             return _nextHandler != null
                 ? _nextHandler.Assess(hand)
-                : PokerHandType.None;
+                : PokerHandType.HighCard;
         }
     }
 }
